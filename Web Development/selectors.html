@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selectors</title>
+    <style>
+        h1{
+            color: black;
+            background-color: red;
+            text-align: center;
+            font-weight: bold;
+
+        }
+        /* div li p{
+            color: yellow;
+            background-color: green;
+            font-weight: bold;
+        } */
+        /* div > p{   p should be directly inside div  
+            color: yellow;
+            background-color: green;
+            font-weight: bold;
+        } */
+        /* div + p{ p should have last sibling as div  
+            color: aliceblue;
+            background-color: aqua;
+        } */
+    </style>
+</head>
+<body>
+    <h1>This is more on selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li><p>This is a pharagraph under li </p></li>
+                <li>this will not get effected</li>
+                this is a pharagraph inside ul 
+            </ul>
+            <p>this is a pharagraph</p>
+        </div>
+        <p>this is a pharagraph</p>
+    </div>
+    <p>this is a pharagraph</p>
+</body>
+</html>
